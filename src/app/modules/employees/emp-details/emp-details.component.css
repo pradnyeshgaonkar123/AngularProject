@@ -1,34 +1,26 @@
 section{
     padding-top: 140px;
-
 }
 .table{
   width: 200px;
   border: 1px solid green;
   margin-left: 40%;
-  background-color: rgb(135, 181, 199);
-  
+  background-color: rgb(135, 181, 199); 
 }
 
 .table  th {
- 
- 
-
     width: 80px;
-   
   }
 
-  td{
+td{
     text-align: center;
   }
 
-  div{
+div{
     padding-left: 40%;
   }
  
-
-  .caption{
-      justify-content: center;
+.caption{
       height: 50px;
       margin-bottom: 10px;
       padding: 10px;

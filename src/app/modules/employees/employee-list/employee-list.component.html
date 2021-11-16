@@ -12,7 +12,7 @@
          <th>Delete</th>
 
      </tr>
-    <tr *ngFor="let emp of allEmployee | searchFilter: query">
+    <tr *ngFor="let emp of allEmployee | searchFilter: query"><!--for serching records with name-->
         <td>{{emp.firstname}}</td>
         <td>{{emp.lastname}}</td>
         <td>{{emp.designation}}</td>

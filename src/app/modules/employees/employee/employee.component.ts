@@ -24,6 +24,7 @@ export class EmployeeComponent implements OnInit {
     if(currentEmployee.id!=null){
       this.updateEmployee(currentEmployee);
       this.router.navigate(['/show']);
+      
     }
     else{
       this.insertEmployee(currentEmployee);

@@ -1,14 +1,16 @@
 <div class="container">
-  
+  <!--for showing header part-->
   <section [ngClass]="['header']">
     <app-header></app-header>
  </section>
 
-<section class="body">
+<section [ngClass]="['body']">
+  <!--View gets updated here-->
   <router-outlet></router-outlet>
 </section>
 
-<section class="footer">
+<!--for showing footer part-->
+<section [ngClass]="['footer']">
   <app-footer></app-footer>
 </section>
 
