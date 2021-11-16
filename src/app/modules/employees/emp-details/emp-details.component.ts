@@ -27,7 +27,7 @@ export class EmpDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log("Reached");
+    // console.log("Reached");
   }
 
 

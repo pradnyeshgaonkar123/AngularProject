@@ -21,7 +21,7 @@ export class EmployeeService {
     address: ''
   }
   mockUrl="http://localhost:3000/Employee";
-  constructor(private http:HttpClient) {
+  constructor(private http:HttpClient) {//reference of service use for http requests
 
   }
   getAllEmlpoyees():Observable<Employee[]>{

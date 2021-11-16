@@ -25,28 +25,12 @@
       "address": "Otav"
     },
     {
-      "id": 12,
-      "firstname": "Rama",
-      "lastname": "Shinde",
-      "designation": "Tester",
-      "contact": "9090909090",
+      "id": 15,
+      "firstname": "Adinath",
+      "lastname": "Mestry",
+      "designation": "Developer",
+      "contact": "9889989898",
       "address": "Kankavli"
-    },
-    {
-      "id": 13,
-      "firstname": "Kangana",
-      "lastname": "Ranawat",
-      "designation": "Actor",
-      "contact": "99090909090",
-      "address": "Mumbai"
-    },
-    {
-      "id": 14,
-      "firstname": "Sita",
-      "lastname": "Ram",
-      "designation": "Engineer",
-      "contact": "900909090",
-      "address": "Mathura"
     }
   ]
 }
