@@ -1,0 +1,37 @@
+<div class="jumbotron">
+    <h2 style="text-align: center; color: black;">Add Employees Here</h2>
+  </div>
+<section class="row">
+    <div class="col-md-6  form-group">
+        <input placeholder="First name"  class="form-control" [(ngModel)]="employeeService.currentEmployee.firstname">
+    </div>
+
+    <div class="col-md-6  form-group">
+        <input placeholder="Last name"  class="form-control" [(ngModel)]="employeeService.currentEmployee.lastname">
+    </div>
+</section>
+
+<section class="row">
+    <div class="col-md-12 form-group">
+        <input placeholder="Designation"  class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
+    </div>
+</section>
+
+<section class="row">
+    <div class="col-md-6  form-group">
+        <input placeholder="Contact"  class="form-control" [(ngModel)]="employeeService.currentEmployee.contact">
+    </div>
+
+    <div class="col-md-6  form-group">
+        <input placeholder="Address"  class="form-control" [(ngModel)]="employeeService.currentEmployee.address">
+    </div>
+</section>
+
+<section class="row">
+    <div class="col-md-8">
+        <button class="btn btn-success btn-block btn-lg" (click)="createAndUpdate(employeeService.currentEmployee)">SAVE</button>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-success btn-block btn-lg" (click)="clear()">RESET</button>
+    </div>
+</section>

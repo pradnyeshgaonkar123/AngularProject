@@ -1,0 +1,28 @@
+
+<table class="table table-focus jumbotron">
+    <tr>
+        <td colspan="6" style="width: 100%;"><input placeholder="Search employees by name" type="text" style="border: 1px solid green;margin-left: 25%;text-align: center;width: 50%; margin-top: 20px;" class="form-control mb-4" [(ngModel)]="query" id="listSearch"></td>
+     </tr>
+     <tr>
+         <th>First name</th>
+         <th>Last name</th>
+         <th>Designation</th>
+         <th>View</th>
+         <th>Update</th>
+         <th>Delete</th>
+
+     </tr>
+    <tr *ngFor="let emp of allEmployee | searchFilter: query">
+        <td>{{emp.firstname}}</td>
+        <td>{{emp.lastname}}</td>
+        <td>{{emp.designation}}</td>
+        <!-- <a [routerLink]="['/edit']" [routerLinkActive]="['activeLink']">Add Employees</a> -->
+        <!-- <td><a class="btn" [routerLink]="['/edit']"  >UPDATE</a></td> -->
+        <td class="btnc"><button class="btn btn-success" style="margin: 0px;" [routerLink]="['/details',emp.id]">Details</button></td>
+        <td class="btnc"><button  class="btn btn-success"  (click)="edit(emp)">UPDATE</button></td>
+        <!-- <td><button [routerLink]="['/emp-details']">Show Details</button></td> -->
+        <!-- <td><button [routerLink]="['/food-details',emp.firstname]" >Show Details</button></td> -->
+        <td class="btnc"><button class="btn btn-danger" (click)="deleteEmployee(emp.id)">DELETE</button></td>
+    </tr>
+</table>
+

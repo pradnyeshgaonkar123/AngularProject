@@ -1,0 +1,19 @@
+.divs{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+h2{
+    color: white;
+}
+
+.footer{
+    width: 1330px;
+    padding-left: 0px;
+}
+.body{
+    height: 500px;
+}
