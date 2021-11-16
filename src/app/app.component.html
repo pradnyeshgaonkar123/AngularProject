@@ -1,16 +1,9 @@
-
-
-
 <div class="container">
   
-
   <section [ngClass]="['header']">
-
     <app-header></app-header>
-    <!-- <a [routerLink]="['add']" [routerLinkActive]="['activeLink']">Add Employees</a>
-    <a [routerLink]="['show']" [routerLinkActive]="['activeLink']">Show Employees</a> -->
-  
  </section>
+
 <section class="body">
   <router-outlet></router-outlet>
 </section>
@@ -18,13 +11,5 @@
 <section class="footer">
   <app-footer></app-footer>
 </section>
-  <!-- <div class="row"> 
-    <div class="col-md-6" style="padding-top: 50px;">
-      <app-employee></app-employee>
-    </div>
 
-    <div class="col-md-6" style="padding-top: 50px;">
-      <app-employee-list></app-employee-list>
-    </div>  -->
-  <!-- </div> -->
 </div>
