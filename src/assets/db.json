@@ -1,35 +1,19 @@
 {
   "Employee": [
     {
-      "id": 4,
-      "firstname": "Sandeep",
-      "lastname": "Gaonkar",
-      "designation": "Farmer",
-      "contact": "9898",
-      "address": "Kankavli"
+      "id": 16,
+      "firstname": "Sachin",
+      "lastname": "Patil",
+      "designation": "Trainer",
+      "contact": "9900990676",
+      "address": "Pune"
     },
     {
-      "firstname": "Ram",
-      "lastname": "Sail",
-      "designation": "Developer",
-      "contact": "989998",
-      "address": "Kudal",
-      "id": 6
-    },
-    {
-      "id": 11,
+      "id": 17,
       "firstname": "Sonal",
       "lastname": "Gaonkar",
-      "designation": "Trainer",
-      "contact": "89877",
-      "address": "Otav"
-    },
-    {
-      "id": 15,
-      "firstname": "Adinath",
-      "lastname": "Mestry",
-      "designation": "Developer",
-      "contact": "9889989898",
+      "designation": "Engineer",
+      "contact": "0990909090",
       "address": "Kankavli"
     }
   ]
